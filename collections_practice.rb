@@ -50,7 +50,7 @@ def add_s(array)
     if index.between?(0, 2)
 
     else body.insert(-1, "$")
-
+      
     end
   end
 end
