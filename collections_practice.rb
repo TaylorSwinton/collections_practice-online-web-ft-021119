@@ -53,19 +53,7 @@ def add_s(array)
       newArray << insertS
     else indexing = index == 1
       newArray << indexing
-  end
+   end
   newArray
   end
-
-=begin
-  newArray = []
-  array.each_with_index do |body, index|
-    if indexing = index == index[0]
-      newArray <<  indexing
-    else insertS = body.insert(-1, "s")
-      newArray << insertS
-  end
-  newArray
-end
-=end
 end
