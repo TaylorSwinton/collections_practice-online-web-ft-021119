@@ -29,7 +29,7 @@ def kesha_maker(array)
   newArray = array.to_s
   eachStatement = []
   newArray.each do |string|
-    eachStatement << string.sub([2],"had")
+    eachStatement << string.sub([2],"$")
   end
   eachStatement
 end
