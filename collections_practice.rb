@@ -28,7 +28,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-
+  replacingThree = []
+  array.each do |variable|
+  
+  end
+  replacingThree
 end
 
 def find_a(array)
