@@ -56,7 +56,7 @@ def add_s(array)
   end
   newArray
   end
-  
+
 =begin
   newArray = []
   array.each_with_index do |body, index|
