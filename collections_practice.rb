@@ -20,9 +20,7 @@ end
 
 
 def swap_elements(array)
-  array.each_with_index do |name, index|
-
-  end
+  array.sort_by { |string| string.index }
 end
 
 def reverse_array(array)
