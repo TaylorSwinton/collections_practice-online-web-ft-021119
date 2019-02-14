@@ -38,8 +38,8 @@ end
 
 def find_a(array)
   array.collect do |words|
-    if words.index('a') == 0
-
+    if aWords = words.index('a') == 0
+      return aWords
     end
   end
 end
