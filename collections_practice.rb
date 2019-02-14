@@ -20,12 +20,12 @@ end
 def swap_elements(array)
   array.sort do |a,b|
     if condition
-      
+
     elsif condition
 
     elsif condition
-      
-    end  
+
+    end
   end
 end
 
