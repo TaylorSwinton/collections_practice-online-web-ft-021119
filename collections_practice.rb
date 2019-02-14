@@ -50,7 +50,7 @@ def add_s(array)
   array.each_with_index do |body, index|
     if indexing = index.between?(0, 2)
       newArray <<  indexing
-    else insertS = body.insert(-1, "$")
+    else insertS = body.insert(-1, "s")
       newArray <<
     end
   end
