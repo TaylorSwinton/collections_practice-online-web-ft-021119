@@ -26,7 +26,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  newArray = array.to_s
+  newArray = array.to_a
   eachStatement = []
   newArray.each do |string|
     eachStatement << string.sub([2],"$")
