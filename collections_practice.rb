@@ -48,7 +48,7 @@ def find_a(array)
 
   array.collect do |words|
     if aWords = words.index('a') != 0
-      delete!(words)
+      delete(words)
     else aWords = words.index('a') == 0
       correct = words
     end
