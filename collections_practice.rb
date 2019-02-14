@@ -52,7 +52,6 @@ def add_s(array)
       newArray <<  indexing
     else insertS = body.insert(-1, "s")
       newArray << insertS
-    end
   end
   newArray
 end
