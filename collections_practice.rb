@@ -28,7 +28,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  replacingThree = []
+  deleteFour = []
   array.each do |variable|
     replacingThree = variable.insert(2, "$")
     deleteFour << replacingThree.delete_at(3)
