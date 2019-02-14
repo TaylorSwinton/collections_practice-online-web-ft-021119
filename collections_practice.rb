@@ -38,12 +38,14 @@ end
 
 def find_a(array)
   correct = []
+=begin
   array.collect do |words|
     if aWords = words.index('a') == 0
       correct = words
     end
   end
-=begin
+=end
+
   array.collect do |words|
     if aWords = words.index('a') != 0
 
@@ -51,7 +53,7 @@ def find_a(array)
       correct = words
     end
   end
-=end
+
 end
 
 def sum_array(array)
