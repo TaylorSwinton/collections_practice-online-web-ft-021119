@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
     array.sort do |a, b|
       a<=>b
@@ -19,8 +21,9 @@ end
 
 def swap_elements(array)
   array.each_with_index do |name, index|
-
+    
   end
+binding.pry
 end
 
 def reverse_array(array)
