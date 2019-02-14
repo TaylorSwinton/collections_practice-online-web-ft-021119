@@ -37,8 +37,13 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
-
+  array.collect do |words|
+    if words.include?("a")
+      
+    else
+      
+    end
+  end
 end
 
 def sum_array(array)
