@@ -48,7 +48,7 @@ end
 def add_s(array)
   array.each_with_index do |body, index|
     if index.between?(0, 2)
-      
+
     else body.insert(-1, "$")
 
     end
