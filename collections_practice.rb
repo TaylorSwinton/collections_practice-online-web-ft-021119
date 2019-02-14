@@ -48,7 +48,7 @@ end
 def add_s(array)
   newArray = []
   array.each_with_index do |body, index|
-    if indexing = index == index[1]
+    if indexing = index == index[0]
       newArray <<  indexing
     else insertS = body.insert(-1, "s")
       newArray << insertS
