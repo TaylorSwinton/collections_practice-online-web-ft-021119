@@ -19,7 +19,7 @@ end
 
 def swap_elements(array)
   array.each_with_index do |name, index|
-    
+
   end
 end
 
