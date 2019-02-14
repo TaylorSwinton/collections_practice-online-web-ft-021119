@@ -41,7 +41,7 @@ def find_a(array)
     if aWords = words.index('a') != 0
 
     else aWords = words.index('a') == 0
-
+      correct << words
     end
   end
 end
