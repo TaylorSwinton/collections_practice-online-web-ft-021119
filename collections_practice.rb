@@ -18,9 +18,8 @@ end
 
 
 def swap_elements(array)
-  newArray = array.to_a
-  newArray.sort do |a,b|
-    a.index <=>b.index
+  array.each_with_index do |name, index|
+    
   end
 end
 
