@@ -20,7 +20,7 @@ end
 
 
 def swap_elements(array)
-  array.sort_by { |string| string.index }
+  array.sort_by! { |string| string.index }
 end
 
 def reverse_array(array)
