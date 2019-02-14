@@ -18,7 +18,7 @@ end
 
 
 def swap_elements(array)
-
+  array.swap!(2,3)
 end
 
 def reverse_array(array)
