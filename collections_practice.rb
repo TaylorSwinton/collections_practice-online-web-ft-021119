@@ -46,11 +46,12 @@ def sum_array(array)
 end
 
 def add_s(array)
+  newArray = []
   array.each_with_index do |body, index|
     if index.between?(0, 2)
 
     else body.insert(-1, "$")
-
+      
     end
   end
 end
