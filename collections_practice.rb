@@ -33,7 +33,7 @@ def kesha_maker(array)
     replacingThree = variable.insert(2, "$")
     deleteFour << replacingThree.delete_at(3)
   end
-  replacingThree
+  deleteFour
 end
 
 def find_a(array)
