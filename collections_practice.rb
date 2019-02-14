@@ -39,7 +39,7 @@ end
 def find_a(array)
   array.collect do |words|
     if words.index[0] == words.include?("a")
-      
+
     else
 
     end
