@@ -23,7 +23,7 @@ def swap_elements(array)
       0
     elsif a.index[1] && a.index[2]
       1
-    elsif 
+    elsif
       -1
     end
   end
