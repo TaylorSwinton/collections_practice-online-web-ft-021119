@@ -31,7 +31,7 @@ def kesha_maker(array)
   deleteFour = []
   array.each do |variable|
     replacingThree = variable.insert(2, "$")
-    deleteFour << replacingThree.delete[3]
+    deleteFour << replacingThree.
   end
   deleteFour
 end
