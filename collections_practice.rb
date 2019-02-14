@@ -37,15 +37,9 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  correct = []
-  array.select do |words|
-    if aWords = words.index('a') != 0
-
-    else aWords = words.index('a') == 0
-      correct = words
-    end
+  array.select do |word|
+    word.index('a') == 0
   end
-
 end
 
 def sum_array(array)
