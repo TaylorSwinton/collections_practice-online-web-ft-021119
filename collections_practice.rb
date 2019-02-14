@@ -28,9 +28,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+
   deleteFour = []
   array.each do |variable|
-    replacingThree = variable.insert(2, "$")
+#    replacingThree = variable.insert(2, "$")
+    replacingThree = variable[2] = '$'
     deleteFour << replacingThree
   end
   deleteFour
