@@ -47,10 +47,10 @@ end
 
 def add_s(array)
   array.each_with_index do |body, index|
-    if index 
-      
+    if index
+
     else body.insert(-1, "$")
-      
+
     end
   end
 end
