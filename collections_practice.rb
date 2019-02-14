@@ -37,6 +37,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  correct = []
   array.collect do |words|
     if aWords = words.index('a') != 0
 
