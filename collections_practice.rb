@@ -52,7 +52,7 @@ def add_s(array)
       insertS = body.insert(-1, "s")
       newArray << insertS
     else indexing = index == 1
-      newArray << insertS
+      newArray << indexing
   end
   newArray
   end
