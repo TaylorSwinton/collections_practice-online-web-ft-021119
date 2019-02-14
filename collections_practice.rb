@@ -38,15 +38,6 @@ end
 
 def find_a(array)
   correct = []
-=begin
-  array.collect do |words|
-    if aWords = words.index('a') == 0
-      correct = words
-    end
-  end
-=end
-
-=begin
   array.collect do |words|
     if aWords = words.index('a') != 0
 
@@ -54,12 +45,6 @@ def find_a(array)
       correct = words
     end
   end
-=end
-
-  array.collect do |words|
-    words.select { |a| a.index('a') == 0  }
-  end
-
 
 end
 
