@@ -31,7 +31,7 @@ def kesha_maker(array)
   newArray.each do |string|
     eachStatement << string.sub([2],"$")
   end
-  eachStatement
+  eachStatement.to_s
 end
 
 def find_a(array)
